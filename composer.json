@@ -1,0 +1,19 @@
+{
+  "name": "dowlatow/dropdown-action-column",
+  "description": "DropDownActionColumn - виджет для отображения дествий в строке таблицы в виде выпадающего списка",
+  "type": "library",
+  "license": "proprietary",
+  "version": "dev-master",
+  "homepage": "https://github.com/novokshonovev/dropdown-action-column",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.0",
+    "yiisoft/yii2-bootstrap": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "dowlatow\\widgets\\": ""
+    }
+  }
+}
