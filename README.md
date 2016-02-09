@@ -7,7 +7,9 @@ DropDownActionColumn - виджет для отображения дествий
 1. Загрузить через git: https://github.com/novokshonovev/dropdown-action-column.git
 или 
 2. Установка через composer 
+
 2.1 Добавить в composer.json проекта:
+
 * репозиторий 
 ```json
     "repositories": [
