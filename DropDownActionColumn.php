@@ -59,11 +59,11 @@ class DropDownActionColumn extends Column
                 case 'delete':
                     return function ($model, $index, $key) use ($item) {
                         return [
-                            'label'       => Yii::t('common', 'Delete'),
+                            'label'       => Yii::t('yii', 'Delete'),
                             'url'         => $this->createUrl($item, $model, $key, $index),
                             'linkOptions' => array_merge($this->linkOptions, [
                                 'data-pjax'    => '0',
-                                'data-confirm' => Yii::t('common', 'Are you sure you want to delete this item?'),
+                                'data-confirm' => Yii::t('yii', 'Are you sure you want to delete this item?'),
                                 'data-method'  => 'post',
                             ]),
                         ];
